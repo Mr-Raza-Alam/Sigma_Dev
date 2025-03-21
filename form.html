@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+  <form action="/server">
+   <!--Form content-->
+   <label for="Uname">Username :</label>
+   <input type="text" id="Uname" name="user"><br>
+   <label for="pass">Password : </label>
+   <input type="password" id="pass" name="password"><br>
+   <!--Number :
+   <input type="number"><br>
+   Time :
+   <input type="time"><br>
+   File :
+   <input type="file"><br>
+   Color-picker :
+   <input type="color"><br>
+   Range :
+   <input type="range"><br-->
+   <!--Button inside the form-->
+    <button>Submit</button><br>
+    <!--button type="button">Set data</button><br>
+    <button type="reset">Reset</button-->
+    <!--using input tag,i.e not adviseable for submitting the form>
+    <input type="submit" value="click me1!"-->
+
+  </form><hr>
+ <form action="https://www.youtube.com/results">
+  <input type="text" name="search_query" id="youtube" placeholder="Search in youtube"/>
+  <button>Search</button>
+ </form><hr>
+ <h2>Practice ques no. 8</h2>
+ <form action="https://www.google.com/search">
+  <label for="google">Google Search </label><br>
+  <input type="text" name="q" id="google" placeholder="search in google">
+  <button>Search</button>
+  <button type="reset">reset</button>
+ </form> <hr>
+ <form action="/server">
+  <input type="checkbox" name="age" id="age" checked>
+  <label for="age">I am 18+</label>
+  <!--Radio button-->
+   <input type="radio" name="fruite" id="fruite" value="Apple"/>
+   <label for="fruite">Apple</label>
+   <input type="radio" name="fruite" id="fruite"value="Orange"/>
+   <label for="fruite">Orange</label>
+   <input type="radio" name="fruite" id="fruite"value="Mango"/>
+   <label for="fruite">Mango</label><hr>   
+   <!--Dropdown facility done by using Select tag-->
+  <div>
+    <h3>Select your profession</h3>
+   <select name="profession" id="profession">
+     <option>Select your option</option>
+     <option value="stud">Student</option>
+     <option value="dev" selected>Developer</option>
+     <option value="ana">Analysist</option>
+   </select>
+ </div><br>
+ <!--Range of type attribute-->
+ <div>
+ <label for="vol">Set your volume</label>
+ <input type="range" min="10" max="78" name="vol" id="vol" step="4" value="54">
+ </div> <br>
+ <textarea name="feed" id="feedback" placeholder="your valueable feedback"></textarea>
+ <label for="feedback">Give your feedback here</label>
+ <button>Submit</button><hr>
+
+</form><br>
+  <!--input type="button" value="click me!"-->
+ <h3>Practice ques no. 9</h3><hr>
+ <form action="/server">
+  <h2>Registration Form</h2>
+  <div>
+    <input type="text" name="fName" placeholder="First Name">
+    <input type="text" name="lName" placeholder="Last Name"> <br><br>
+    <label for="opt">Please select gender</label>
+    <select name="gender" id="opt">
+       <option>choose your option</option>
+      <option value="male" selected>Male</option>
+      <option value="female">Female</option>
+      <option value="others">Others</option>
+    </select><br><br>
+    <label for="term">Do you agree to all terms of service?</label>
+    <input type="checkbox" name="agree" id="term">
+    <label for="term"><b>Yes, I agree</b></label>
+  </div>
+  <button>Register</button>
+ </form> <hr>
+ <!--Assignment ques.no.2 feedback form-->
+  <form action="/action">
+    <h2>Feedback Form</h2>
+    <div>
+    <label for="uName">Name :</label>
+    <input type="text" name="U_name" id="uName" placeholder="write your name"><br><br>
+    <label for="uEmail">Email :</label>
+    <input type="email" name="U_email" id="uEmail" placeholder="write your email">
+    <button type="reset">reset</button>
+    </div> <br>
+    <div>
+      <label for="feed">Message:</label><br>
+      <textarea id="feed" placeholder="drop your message here"></textarea>
+    </div>
+    <div>
+      Rate us out of 5: <br>
+     <input type="radio" id="opt">
+     <label for="opt">1</label><br>
+     <input type="radio">
+     <label for="opt">2</label><br>
+     <input type="radio">
+     <label for="opt">3</label><br>
+     <input type="radio">
+     <label for="opt">4</label><br>
+     <input type="radio">
+     <label for="opt">5</label><br>
+    </div><br>
+    <button>Send your message! </button>
+  </form><hr>
+  <!--Assignment ques no. 2-->
+  <form action="/server">
+    <h2>Recreate the form</h2>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text"  id="name">
+    </div> <br>
+   <div>
+    sex: 
+    <input type="radio" id="gender">
+    <label for="gender">Male</label>
+    <input type="radio" id="gender">
+    <label for="gender">Female</label>
+   </div> <br>
+   <div>
+     <label for="count_Opt">Country:</label>
+     <select id="count_Opt">
+      <option>choose your country</option>
+      <option>India</option>
+      <option>Usa</option>
+      <option selected>Australia</option>
+      <option>Newzland</option>
+      <option>Singapore</option>
+     </select>
+   </div><br>
+   <div>
+     Message:<br>
+     <textarea placeholder="your valueable message"></textarea>
+   </div><br>
+   <div>
+    <input type="checkbox" id="box">
+    <label for="box">Subscribe?</label>
+   </div><br>
+   <button>Submit</button>
+  </form>
+</body>
+</html>

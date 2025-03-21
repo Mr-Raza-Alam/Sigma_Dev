@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create page</title>
+<style>
+    select{
+        width: 12.7em;
+    }
+    div{
+       margin: 20em 0em 0em 33em;
+      border: .5em solid;
+     width: 30em;
+     background-color: rgba(255, 166, 0, 0.845);
+    }
+  h1{
+    text-align: center;
+  }
+  form{
+   text-align: center;
+
+  }
+ button{
+    margin-top: 1em;
+    width: 15em;
+   font-weight: 800;
+   background-color: green;
+   color: white;
+ }
+</style>
+</head>
+<body>
+<div>
+ <h1>Create an Account</h1>
+ <form action="/action">
+  <label for="enroll">Enter enrollment No.</label><br>
+  <input type="text" id="enroll" placeholder="enorllment no."><br>
+  <label for="sname">Student Name</label><br>
+  <input type="text" id="sname" placeholder="Student Name"><br>
+  <label for="gname">Enter gurdian's name.</label><br>
+  <input type="text" id="gname"> <br>
+  <label for="age">Select your Age</label><br>
+  <select for="age" >   
+    <option value="">Select an option</option>
+  <option id="age" value="male" selected>Male</option>
+  <option id="age" value="female">Female</option>
+  <option id="age" value="other">Other</option>
+  </select><br>
+  <label for="email">Enter email-id</label><br>
+  <input type="email" id="emial" placeholder="xyz32@gmail.com"><br>
+  <label for="enroll">Enter Mobile No.</label><br>
+  <input type="text" placeholder="mobile no."><br>
+  <label for="enroll">Enter Address</label><br>
+  <input type="text" placeholder="address"><br>
+  <label for="pass">strong password</label><br>
+  <input type="password" id="pass" placeholder="strong password"><br>
+  <label for="Cpass">confirm password</label><br>
+  <input type="password" id="Cpass" placeholder="confirm password"><br>
+  <input type="checkbox"/>
+  <b>Agree with <a href="#">Term & Condition</a></b>
+  <br>
+  <button>Sign-up</button>
+ </form>
+</div>
+</body>
+</html>

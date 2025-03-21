@@ -1,0 +1,81 @@
+/* h1{
+    color: blueviolet;
+    background-color: aquamarine;
+ }
+ p{
+    color: #234264;
+ }
+ button{
+    color: rgb(84, 87, 11);
+    background: #ffffb3;
+ } */
+
+ /* h2{
+    color: orange;
+ }
+ button{
+    background-color: blue;
+    color: aliceblue;
+ }
+ p{
+    background-color: black;
+    color: white;
+ }
+ div{
+   height: 5rem;
+   width: 8rem;
+   background-color: #fcba03;
+   border: 1rem solid #fcba03;
+   border-radius: 40%;
+ } */
+ /*#fcba03*/
+
+ /* p{
+  
+   font-family: league spartan;/*supported by microsoft edge
+   color: #ffa511;
+   text-align: center;
+   font-size: 55px;
+   font-weight: 900;bolder
+   letter-spacing: 2px;
+   line-height: 1.5;
+   text-decoration: teal double underline;
+   text-transform: uppercase;
+ } */
+  body{
+   font-family: Georgia;
+  }
+ h1{
+   text-align: center;
+   color: red;
+
+ }
+ h3{
+   text-align: center;
+   color: black;
+ }
+
+ p{
+   color: #964b00;
+   text-align: center;
+   line-height: 30px;
+ }
+ span{
+   text-decoration: underline;
+   text-decoration-thickness: 2px;
+ }
+ h4{
+   text-align: center;
+ }
+ a{
+   text-decoration: none;
+   color: rgb(0,255,0);
+ }
+ textarea{
+   color: black;
+ }
+
+ button{
+   background-color: white;
+   color: blueviolet;
+ }

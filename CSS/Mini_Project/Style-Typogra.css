@@ -1,0 +1,32 @@
+/* h1{
+    font-family: "Roboto", sans-serif;
+}
+.material-symbols-outlined {
+    font-family: "Material-Symbols-Outlined","Roboto", sans-serif;
+    font-size: 48px;
+    display: inline-block;
+  } */
+   .icon-container{
+    display: flex;
+    justify-content: space-evenly;
+   }
+  .fa-play{
+    font-size: 3rem;
+     color: skyblue;
+  }
+  .fa-circle-user{
+    font-size: 3rem;
+    color: brown;
+  }
+  .fa-truck{
+    font-size: 3rem;
+    color: palevioletred;
+  }
+  .fa-camera{
+    font-size: 3rem;
+    color: slategrey;
+  }
+  .fa-maximize{
+    font-size: 3rem;
+    color: rgb(23, 15, 31);
+  }

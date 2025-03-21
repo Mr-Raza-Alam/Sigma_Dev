@@ -1,0 +1,120 @@
+*{
+    /* by default  for clean sheet*/
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.main_box{
+   background-image: url("camera.jpg");
+  /* vh- viewport height means w.r.t full screen size */
+  height: 100vh;
+  background-size: cover;
+}
+.btn_one i{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all .4s linear;
+}
+
+.sidebar_menu{
+    position: fixed;
+    left: -300px;
+    background-color: rgba(255,255,255,0.1);
+    height: 100vh;
+    width: 300px;
+   box-shadow: 0 0 2px  rgba(255,255,255,0.5);
+   transition: all .3s linear;
+}
+
+.sidebar_menu .logo{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+   box-shadow: 0 0 3px  rgba(255,255,255,0.4);
+}
+.sidebar_menu .logo a{
+ position: absolute;
+ left: 40px;
+ color: aliceblue;
+ font-size: 20px;
+ font-weight: 500;
+ text-decoration: none;
+}
+.sidebar_menu .btn_two i{
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+    position: absolute;
+    left: 275px;
+     /*opacity: 1; visibilty become zero */
+     /* cursor-properties 
+       cursor: progress;
+     */
+     cursor: pointer;
+}
+
+.sidebar_menu .menu{
+ position: absolute;
+ top: 80px;
+ width: 100%;
+ color: aliceblue;
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 10px 20px;
+}
+.sidebar_menu .menu li,a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebar_menu .menu a{
+    padding-left: 8px;
+}
+.sidebar_menu .social_media{
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+}
+.sidebar_menu .social_media i{
+    color: rgb(250, 249, 249);
+    opacity: 0.4;
+    padding-left: 4px;
+}
+.main_box #check{
+    display: none;
+}
+
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 2px rgba(255,255,255,0.4) ;
+}
+.btn_one i:hover{
+    font-size: 30px;
+}
+
+.btn_two i:hover{
+    font-size: 20px;
+}
+.sidebar_menu .social_media i:hover{
+ opacity: 1;
+ transform: scale(1.2);
+}
+
+/* tild selector ~ for the sibling subsiquent */
+#check:checked ~ .sidebar_menu{
+    left: 0px;
+}
+ #check:checked ~ .btn_one i{
+    opacity: 0;
+}
+
+#check:checked ~ .sidebar_menu .btn_two i{ 
+    opacity: 1;
+}

@@ -1,0 +1,18 @@
+*{/*universal selector*/
+    font-family: CourierNew;
+}
+h1{/*element selector*/
+    color: #1b74e4;
+}
+#searchbtn{/*id selector*/
+    background-color: black;
+    color: white;
+}
+#login,#Register{ /*id selector for multi-element*/
+    background-color: aqua;
+    color: black; 
+}
+/* .userbtn{ /* class selector
+    background-color: aqua;
+    color: black;
+} */

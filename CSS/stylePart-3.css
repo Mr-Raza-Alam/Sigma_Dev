@@ -1,0 +1,96 @@
+h1{
+    height: 100px;
+    width: 250px;
+   text-decoration: underline;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 500;
+   border: 1.4px solid green;
+   border-top-left-radius: 20%;
+   text-align: center;
+}
+/* div{
+    height: 200px;
+    width: 500px;
+    border: 2px solid blue;
+    border-top: 3px dashed red;
+    padding: 15px;
+    margin: 15px 20px 30px;
+} */
+    /* border: 2px solid brown;
+    border-radius: 30%;
+    padding: 0px 25px 0px 25px;
+}
+
+.outerdiv{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+#box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: green;
+}
+
+h3{
+    display: inline;
+    background-color: hotpink;
+}
+span{
+    display: block;
+    background-color: green;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(208, 13, 45);
+    background-color: orange;
+    margin: 15px;
+    /*display : inline; make div only inline but inline-block make block element to inline alongwith hold all block element properties
+    display: inline-block;
+}
+h1{
+    border: 2px;
+    width: 50%;
+}
+#outer{
+ height: 300px;
+ width: 300px;
+ background-color: green;
+ font-size: 20px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /*margin: 10%;
+    font-size: 1.3em;
+   padding: 2em;
+}
+button{
+ */
+
+ div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid orange;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+ }
+ li{
+    display: inline;
+ }

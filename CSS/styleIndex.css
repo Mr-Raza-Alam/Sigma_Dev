@@ -1,0 +1,64 @@
+/* Descendent selector */
+.post a{
+ color: purple;   
+ background-color: green;
+} 
+
+nav ul li{
+    color: pink;
+}
+#link-list a{
+    color: rgb(82, 17, 223);
+}
+/* Adjacent sibling combinator */
+p + h3{
+  text-decoration: underline;
+}
+ ul li a{
+    text-decoration: none;
+ }
+/* child combinator */
+div > input{
+  background-color: rgb(179, 166, 170);
+  color: black;
+}
+/* Attribute Selector */
+input[type= "text"]{
+    color: brown;
+}
+input[type = "password"]{
+    color: green;
+}
+/* Pseudo class */
+button:hover{
+    background-color: brown;
+    color: rgb(234, 246, 234);
+}
+
+h3:hover{
+    text-decoration: none;
+} 
+/* can use pseudo class with child combination */
+footer input[type = "radio"]:checked+label{
+ color: orange;
+ font-weight: 650;
+}
+/* pseudo class nth-of-type() */
+div:nth-of-type(-n+2){
+    background-color: blanchedalmond;
+} 
+/* Pseudo Element */
+h1::first-letter{
+    color: #9b43f2;
+}
+p::first-line{
+    border: 2px solid;
+    border-radius: 20%;
+    color: rgb(206, 131, 9);
+}
+/* ::selection */
+p::selection{
+  font-style: italic;
+  background-color: black;
+  color: whitesmoke;
+}

@@ -1,0 +1,5 @@
+nav{
+    border: 1em solid orange;
+    height: 62em;
+    display: inline-flex;
+}

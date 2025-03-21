@@ -1,0 +1,6 @@
+.container{
+    background-color: yellow;
+}
+.container .btn-danger{
+    background-color: pink;
+}
