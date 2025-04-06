@@ -1,5 +1,11 @@
-nav{
-    border: 1em solid orange;
-    height: 62em;
-    display: inline-flex;
+.nav ul{
+    /* border: .4em solid rgb(169, 158, 139); */
+    height: 18em;
+    width: 100em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+li{
+    margin-top: 2em;
 }

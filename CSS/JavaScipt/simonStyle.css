@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    height: 20rem;
+    width: 18rem;
+    border: 3px solid  ;
+    border-radius: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 4rem; */
+}
+.gameBox{
+    height: 6rem;
+    width: 6rem;
+    border: .2rem solid ;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.box1{
+    background-color: rgb(206, 14, 123);
+    margin-top: 2rem;
+}
+.box2{
+    background-color: rgb(18, 122, 95);
+    margin-top: 2rem;
+}
+.box3{
+    margin-bottom: 2rem;
+}
+.box4{
+    background-color:rgb(24, 67, 177);
+    margin-bottom: 2rem;
+}
+.flash{
+    background-color: aliceblue;
+}
+.userFlash{
+    background-color: rgb(128, 120, 4);
+}
