@@ -8,16 +8,16 @@ let userSeq = [];
 let started = false;// game is not started
 let level = 0;
 let highScore = 0;
-let btns = ['pink','green','orange','blue'];
+let btns = ['pink','green','blue','orange'];
 
 document.addEventListener('keypress',()=>{
     if(started == false){
-        console.log('a key has been pressed!');
+        // console.log('a key has been pressed!');
         started = true;
         levelUp();
    
     }else{
-        alert('The game has been started, start playing! your current scor = 1.');
+        alert('The game has been started, start playing! your current score = 1.');
     }
 });
 //  console.log(ranIdx);
@@ -32,7 +32,7 @@ function levelUp(){
    let ranColor = btns[ranIdx];// ranColor = class of such box's color
    let box = document.querySelector(`.${ranColor}`);// here access such box of class = ranColor
      gameSeq.push(ranColor);
-     console.log(gameSeq);
+    //  console.log(gameSeq);
    // a random btn will flash after started the game.
     gameFlash(box);
 }
